@@ -11,7 +11,7 @@ interface Car {
   drive: string;
   equipmentName: string;
   price: number;
-  createdAt: string; // Убедитесь, что используете строку для дат
+  createdAt: string;
 }
 
 export default Car;
