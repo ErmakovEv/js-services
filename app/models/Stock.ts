@@ -20,3 +20,5 @@ const stockSchema = new Schema({
 const StockModel = mongoose.models.Stock || model('Stock', stockSchema, 'stock');
 
 export default StockModel;
+
+//test
